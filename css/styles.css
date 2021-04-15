@@ -101,6 +101,10 @@ a:hover {
   width: auto;
   margin-top: 100px;
 }
+.icongamergirl {
+    margin-left: 30px;
+    font-size: 0.75rem;
+}
 
 .keyboard {
   width: 25%;
