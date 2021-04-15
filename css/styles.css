@@ -1,0 +1,176 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/***headers***/
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+.secondheading {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+/****containers"boxes"******/
+.top-container {
+  background-color: #99e1e5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 50px 0 20px;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/*******images********/
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.gamergirl {
+  height: 200px;
+  width: auto;
+  margin-top: 100px;
+}
+
+.keyboard {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.iconkeyboard {
+  margin-right: 30px;
+  font-size: 0.75rem;
+}
+
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.iconcomputer {
+  margin-left: 30px;
+  font-size: 0.75rem;
+}
+
+.contactmessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  Color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/******linkcolors******/
+.BUTTON_HYR {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Lobster', cursive;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 8px;
+   -webkit-box-shadow: -6px 1px 20px 0 #000000;
+   -moz-box-shadow: -6px 1px 20px 0 #000000;
+   box-shadow: -6px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_HYR:hover {
+   border: solid #58C5C9 1px;
+   background: #FFA99B;
+   background-image: -webkit-linear-gradient(top, #FFA99B, #AD6649);
+   background-image: -moz-linear-gradient(top, #FFA99B, #AD6649);
+   background-image: -ms-linear-gradient(top, #FFA99B, #AD6649);
+   background-image: -o-linear-gradient(top, #FFA99B, #AD6649);
+   background-image: -webkit-gradient(to bottom, #FFA99B, #AD6649);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
